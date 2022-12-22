@@ -1,5 +1,8 @@
 build/
 dist/
+archive/
 __pycache__/
-*.wsdl
-*.xsd
+wsdl/
+.vscode/
+*.pyo
+*.log

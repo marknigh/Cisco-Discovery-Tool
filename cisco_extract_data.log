@@ -1,108 +1,18 @@
-11/18/2022 04:55:45 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/18/2022 04:56:10 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/18/2022 04:59:20 PM get_callpark.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/18/2022 04:59:27 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/18/2022 05:11:36 PM get_callpark.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/18/2022 05:11:43 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/18/2022 05:20:42 PM get_phone_registration: Invalid URL 'https://:8443/realtimeservice2/services/RISService70': No host supplied
-11/18/2022 05:22:32 PM get_phone_registration: Invalid URL 'https://:8443/realtimeservice2/services/RISService70': No host supplied
-11/18/2022 05:24:03 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/19/2022 12:40:55 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/19/2022 12:41:49 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 01:53:38 PM get_phone_registration: list index out of range
-11/21/2022 01:53:50 PM list_siptrunks
-11/21/2022 01:54:27 PM get_phone_registration: list index out of range
-11/21/2022 02:09:21 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied 
-11/21/2022 02:14:06 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied 
-11/21/2022 02:14:25 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied 
-11/21/2022 02:16:53 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied 
-11/21/2022 02:17:03 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/21/2022 02:18:03 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/21/2022 02:19:12 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/21/2022 02:26:19 PM get_callhandlers Expecting value: line 1 column 1 (char 0)
-11/21/2022 02:27:09 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 02:28:47 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 02:29:28 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/21/2022 02:30:01 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/21/2022 02:30:39 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/21/2022 02:45:31 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied 
-11/21/2022 02:49:55 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied 
-11/21/2022 02:50:16 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied 
-11/21/2022 02:55:58 PM get_callhandlers Invalid URL 'https:///vmrest/users/': No host supplied
-11/21/2022 03:04:01 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/21/2022 03:51:41 PM get_fac.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:52:17 PM get_fac.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:52:21 PM get_fac.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:52:25 PM get_callpark.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:52:29 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:53:00 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/21/2022 03:53:05 PM get_gateway_detail Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:54:00 PM get_gateway_detail Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:54:11 PM list_siptrunks
-11/21/2022 03:57:37 PM list_siptrunks
-11/21/2022 03:57:38 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:58:29 PM list_siptrunks
-11/21/2022 03:59:00 PM list_siptrunks
-11/21/2022 03:59:01 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 03:59:13 PM list_siptrunks
-11/21/2022 03:59:53 PM list_siptrunks
-11/21/2022 04:00:08 PM list_siptrunks
-11/21/2022 04:00:21 PM list_siptrunks
-11/21/2022 04:04:44 PM list_siptrunks
-11/21/2022 04:05:37 PM list_siptrunks
-11/21/2022 04:06:51 PM list_siptrunks
-11/21/2022 04:13:01 PM list_siptrunks
-11/21/2022 04:14:11 PM list_siptrunks
-11/21/2022 04:14:43 PM list_siptrunks
-11/21/2022 04:15:22 PM list_siptrunks
-11/21/2022 04:15:38 PM get_phone_registration: list index out of range
-11/21/2022 04:17:20 PM get_meetme Unknown fault occured 
-11/21/2022 04:18:47 PM get_meetme Unknown fault occured 
-11/21/2022 04:21:23 PM get_meetme Unknown fault occured 
-11/21/2022 05:00:25 PM get_meetme {http://www.cisco.com/AXL/API/12.0}LMeetMe() got an unexpected keyword argument 'securityLevel'. Signature: `pattern: xsd:string, description: xsd:string, usage: , routePartitionName: {http://www.cisco.com/AXL/API/12.0}XFkType, minimumSecurityLevel: , uuid: {http://www.cisco.com/AXL/API/12.0}XUUID` 
-11/21/2022 05:07:48 PM get_meetme module 'zeep.xsd' has no attribute 'nil' 
-11/21/2022 05:12:48 PM get_meetme {http://www.cisco.com/AXL/API/12.0}LMeetMe() got an unexpected keyword argument 'securityLevel'. Signature: `pattern: xsd:string, description: xsd:string, usage: , routePartitionName: {http://www.cisco.com/AXL/API/12.0}XFkType, minimumSecurityLevel: , uuid: {http://www.cisco.com/AXL/API/12.0}XUUID` 
-11/21/2022 05:36:41 PM get_meetme module 'zeep.xsd' has no attribute 'string' 
-11/21/2022 10:12:43 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 10:12:47 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/21/2022 10:12:50 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/21/2022 10:12:53 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied
-11/21/2022 10:13:00 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 10:13:03 PM get_phone_registration: Invalid URL 'https://:8443/realtimeservice2/services/RISService70': No host supplied
-11/21/2022 10:13:37 PM get_meetme HTTPSConnectionPool(host='10.10.20.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002AD63FA41F0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
-11/21/2022 10:25:58 PM get_meetme HTTPSConnectionPool(host='10.10.20.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000278C566A9A0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
-11/21/2022 10:27:40 PM get_cucm_version HTTPSConnectionPool(host='10.10.20.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024063F14B50>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
-11/21/2022 10:47:54 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/21/2022 10:53:01 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/22/2022 08:21:54 AM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 08:21:58 AM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/22/2022 08:22:00 AM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
-11/22/2022 08:22:03 AM get_gateway_detail Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 08:49:23 AM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 08:50:28 AM get_callpark.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 08:50:42 AM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 08:51:53 AM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 08:55:36 AM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 09:03:24 AM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 09:04:24 AM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 09:04:27 AM get_meetme Invalid URL 'https:///vmrest/version': No host supplied 
-11/22/2022 09:04:40 AM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 09:36:02 AM get_meetme Invalid URL 'https:///vmrest/version': No host supplied 
-11/22/2022 09:36:05 AM get_meetme Invalid URL 'https:///cerappservices/export/cerclustergroup/list': No host supplied 
-11/22/2022 01:43:44 PM get_phones.py Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 01:43:47 PM get_cucm_version Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 01:52:17 PM get_shared_lines HTTPSConnectionPool(host='10.10.10.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000019E7D960310>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
-11/22/2022 01:54:40 PM get_shared_lines HTTPSConnectionPool(host='10.10.10.10', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002018AD3AD30>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
-11/22/2022 01:57:47 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/22/2022 02:02:28 PM get_cuc_version Invalid URL 'https:///vmrest/version': No host supplied 
-11/22/2022 02:03:37 PM get_cuc_version HTTPSConnectionPool(host='10.10.10.1', port=443): Max retries exceeded with url: /vmrest/version (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020888BBAE20>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
-11/22/2022 02:17:06 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/22/2022 02:17:39 PM get_shared_lines HTTPSConnectionPool(host='10.10.10.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F8DCCFC1C0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
-11/22/2022 02:18:12 PM get_fac.py HTTPSConnectionPool(host='10.10.10.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F8D963E820>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
-11/22/2022 02:22:51 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/22/2022 02:22:59 PM get_phone_registration: Invalid URL 'https://:8443/realtimeservice2/services/RISService70': No host supplied
-11/22/2022 02:43:19 PM get_shared_lines Invalid URL 'https://:8443/axl/': No host supplied
-11/22/2022 02:43:24 PM get_meetme Invalid URL 'https://:8443/axl/': No host supplied 
-11/22/2022 02:43:52 PM get_gateway_detail HTTPSConnectionPool(host='1.1.1.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001F8E1995490>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
-11/23/2022 10:42:13 AM get_phone_registration: list index out of range
-11/23/2022 10:42:53 AM get_phone_registration: list index out of range
+12/21/2022 09:46:22 AM get_phone_registration: Service has no operation 'selectCmDevice'
+12/21/2022 09:47:06 AM get_phone_registration: 'InitialZeep' object has no attribute 'selectCmDevice'
+12/21/2022 09:48:40 AM get_phone_registration: 'InitialZeep' object has no attribute 'selectCmDevice'
+12/21/2022 09:51:04 AM get_phone_registration: 'InitialZeep' object has no attribute 'selectCmDevice'
+12/21/2022 09:55:40 AM get_phone_registration: 'InitialRISZeep' object has no attribute 'selectCmDevice'
+12/21/2022 09:55:46 AM get_phone_registration: 'InitialRISZeep' object has no attribute 'selectCmDevice'
+12/21/2022 11:18:32 AM get_gateway_detail 'MainWindow' object has no attribute 'listHuntPilot' 
+12/21/2022 11:20:00 AM get_gateway_detail 'InitialZeep' object has no attribute 'listHuntPilot' 
+12/21/2022 11:20:17 AM get_gateway_detail 'InitialZeep' object has no attribute 'listHuntPilot' 
+12/21/2022 01:32:35 PM get_cuc_version HTTPSConnectionPool(host='10.10.20.18', port=443): Max retries exceeded with url: /vmrest/version (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000139240F1910>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
+12/21/2022 02:19:41 PM get_callhandlers Invalid URL 'https:///vmrest/handlers/callhandlers': No host supplied
+12/21/2022 02:19:44 PM get_vm_users Invalid URL 'https:///vmrest/users/': No host supplied
+12/21/2022 02:46:44 PM get_cucm_version HTTPSConnectionPool(host='10.10.20.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE56381D30>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
+12/21/2022 03:49:20 PM get_phone_registration: HTTPSConnectionPool(host='10.10.20.1', port=8443): Max retries exceeded with url: /realtimeservice2/services/RISService70 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000255C909B940>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+12/21/2022 03:49:22 PM get_cucm_version HTTPSConnectionPool(host='10.10.20.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000255C90938E0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
+12/21/2022 03:54:44 PM get_phones.py HTTPSConnectionPool(host='10.10.20.1', port=8443): Max retries exceeded with url: /axl/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000255C90D8B50>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')) 
+12/22/2022 11:49:09 AM get_onsite_alerts Invalid URL 'https:///cerappservices/service/cerl': No host supplied 
+12/22/2022 11:49:32 AM get_cer_version Invalid URL 'https:///cerappservices/export/cerclustergroup/list': No host supplied 

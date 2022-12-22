@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -33,27 +36,17 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="cucm_layout">
-     <item row="1" column="0">
-      <widget class="QLabel" name="cucm_uname_label">
-       <property name="text">
-        <string>Username:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0" colspan="2">
-      <widget class="QPushButton" name="cucm_ver_btn">
-       <property name="text">
-        <string>CUCM Version</string>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-      </widget>
-     </item>
      <item row="2" column="0">
       <widget class="QLabel" name="cucm_pw_label">
        <property name="text">
         <string>Password:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="cucm_ip_label">
+       <property name="text">
+        <string>CUCM IP:</string>
        </property>
       </widget>
      </item>
@@ -64,10 +57,13 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="0">
-      <widget class="QLabel" name="cucm_ip_label">
+     <item row="3" column="0" colspan="2">
+      <widget class="QPushButton" name="cucm_ver_btn">
        <property name="text">
-        <string>CUCM IP:</string>
+        <string>CUCM Version</string>
+       </property>
+       <property name="default">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
@@ -88,6 +84,13 @@
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="cucm_uname_label">
+       <property name="text">
+        <string>Username:</string>
        </property>
       </widget>
      </item>
@@ -112,13 +115,19 @@
     <layout class="QGridLayout" name="cucm_btn_layout">
      <item row="2" column="0">
       <widget class="QPushButton" name="getgateways_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Gateways</string>
        </property>
       </widget>
      </item>
      <item row="5" column="0">
-      <widget class="QPushButton" name="getFAC_btn">
+      <widget class="QPushButton" name="getfac_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>FAC</string>
        </property>
@@ -126,6 +135,9 @@
      </item>
      <item row="0" column="0">
       <widget class="QPushButton" name="getphones_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="autoFillBackground">
         <bool>false</bool>
        </property>
@@ -138,7 +150,10 @@
       </widget>
      </item>
      <item row="4" column="0">
-      <widget class="QPushButton" name="gethunt_btn">
+      <widget class="QPushButton" name="gethuntgroups_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Hunt Groups</string>
        </property>
@@ -146,6 +161,9 @@
      </item>
      <item row="8" column="0">
       <widget class="QPushButton" name="getsharedlines_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="font">
         <font>
          <family>Verdana</family>
@@ -159,6 +177,9 @@
      </item>
      <item row="6" column="0">
       <widget class="QPushButton" name="getcallpark_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Call Park</string>
        </property>
@@ -166,6 +187,9 @@
      </item>
      <item row="7" column="0">
       <widget class="QPushButton" name="getmeetme_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Meet Me</string>
        </property>
@@ -173,13 +197,19 @@
      </item>
      <item row="3" column="0">
       <widget class="QPushButton" name="gettrunks_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>SIP Trunks</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QPushButton" name="ris_test">
+      <widget class="QPushButton" name="getregistered_btn">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="text">
         <string>Phone Registration</string>
        </property>
@@ -581,11 +611,11 @@
   <tabstop>cer_pw_input</tabstop>
   <tabstop>cer_ver_btn</tabstop>
   <tabstop>getphones_btn</tabstop>
-  <tabstop>ris_test</tabstop>
+  <tabstop>getregistered_btn</tabstop>
   <tabstop>getgateways_btn</tabstop>
   <tabstop>gettrunks_btn</tabstop>
-  <tabstop>gethunt_btn</tabstop>
-  <tabstop>getFAC_btn</tabstop>
+  <tabstop>gethuntgroups_btn</tabstop>
+  <tabstop>getfac_btn</tabstop>
   <tabstop>getcallpark_btn</tabstop>
   <tabstop>getmeetme_btn</tabstop>
   <tabstop>getsharedlines_btn</tabstop>
@@ -637,8 +667,8 @@
    <slot>list_gateways()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>421</x>
-     <y>132</y>
+     <x>422</x>
+     <y>131</y>
     </hint>
     <hint type="destinationlabel">
      <x>323</x>
@@ -647,14 +677,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>getFAC_btn</sender>
+   <sender>getfac_btn</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>list_facs()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>391</x>
-     <y>219</y>
+     <x>392</x>
+     <y>218</y>
     </hint>
     <hint type="destinationlabel">
      <x>336</x>
@@ -669,8 +699,8 @@
    <slot>list_meetmes()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>388</x>
-     <y>277</y>
+     <x>389</x>
+     <y>276</y>
     </hint>
     <hint type="destinationlabel">
      <x>334</x>
@@ -685,8 +715,8 @@
    <slot>list_callparks()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>419</x>
-     <y>248</y>
+     <x>420</x>
+     <y>247</y>
     </hint>
     <hint type="destinationlabel">
      <x>284</x>
@@ -695,14 +725,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>gethunt_btn</sender>
+   <sender>gethuntgroups_btn</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>list_huntgroups()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>404</x>
-     <y>190</y>
+     <x>405</x>
+     <y>189</y>
     </hint>
     <hint type="destinationlabel">
      <x>336</x>
@@ -717,8 +747,8 @@
    <slot>list_siptrunks()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>400</x>
-     <y>161</y>
+     <x>401</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
      <x>304</x>
@@ -829,8 +859,8 @@
    <slot>list_shared_lines()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>393</x>
-     <y>306</y>
+     <x>394</x>
+     <y>305</y>
     </hint>
     <hint type="destinationlabel">
      <x>504</x>
@@ -839,14 +869,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>ris_test</sender>
+   <sender>getregistered_btn</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>get_phone_registration()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>281</x>
-     <y>103</y>
+     <x>282</x>
+     <y>102</y>
     </hint>
     <hint type="destinationlabel">
      <x>233</x>
@@ -870,6 +900,54 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>cucm_ip_input</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>initializeZeep()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>102</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>62</x>
+     <y>34</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cucm_uname_input</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>initializeZeep()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>176</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>226</x>
+     <y>88</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cucm_pw_input</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>initializeZeep()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>113</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>168</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>get_cuc_version()</slot>
@@ -889,5 +967,6 @@
   <slot>list_shared_lines()</slot>
   <slot>get_phone_registration()</slot>
   <slot>get_cer_version()</slot>
+  <slot>initializeZeep()</slot>
  </slots>
 </ui>
