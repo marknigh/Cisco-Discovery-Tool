@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="newPrefix">
-    <file>icons/extract.png</file>
-    <file>icons/ip-phone.png</file>
-  </qresource>
-</RCC>
