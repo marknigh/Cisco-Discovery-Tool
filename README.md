@@ -1,6 +1,6 @@
 # Cisco Discovery Tool
 
-This application written in PyQt5 can be used to discover many important configurations within CUCM, CUC and CER to be used as a migration tool to WxC.
+This application written in PyQt5 can be used to discover many important configurations within CUCM, CUC and CER which can be used to migrate to WxC.
 ## Getting Started
 
 Please email me at marknigh70@gmail.com to ask for access to the .exe that this source code creates with pyinstaller. 
